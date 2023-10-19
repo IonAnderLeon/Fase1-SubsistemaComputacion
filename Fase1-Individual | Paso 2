@@ -1,0 +1,11 @@
+#Primero cambiaremos el nombre del equipo a DEP-LOGíSTICA. *Tendremos que reiniciar el equipo para que sea efectivo el cambio.
+Reanme-Computer -NewName DEP-LOGÍSTICA
+#Crearemos otro usuario
+net user nombre_de_usuario /add
+#Le añadimos una contraseña
+net user nombre_de_usuario *
+#Averiguamos los grupos existentes
+net localgroup 
+#Lo metemos dentro del grupo de administradores
+net localgroup administradores nombre_de_usuario /add
+#Añadiremos la dirección IP y DNS.
