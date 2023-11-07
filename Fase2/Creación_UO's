@@ -7,7 +7,7 @@
 #Marketing:UO Dep. Marketing:
 
 #Ponemos el Domain Component para el dominio en cuestión, que para este caso es smr.local
-$domain="dc=smr,dc=local"
+$domain="dc=marenostrum,dc=mylocal"
 
 #Solicitamos por pantalla al usuario el fichero csv y guardamos el valor en la variable $ficheroCsvUO
 #Ejemplo, el usuario introduce el fichero con la ruta donde se encuentra el mismo: C:\ficherosCsv\unidadesOrgnizativasSMR.csv
@@ -20,7 +20,7 @@ $ficheroCsvUO=Read-Host "Introduce el fichero csv de UO's:"
 #y los elementos en filas se convierten en los valores de propiedad.
 #Referencia: https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.utility/import-csv?view=powershell-6
 
-$fichero = import-csv -Path $ficheroCsvUO -delimiter :
+$fichero = import-csv -Path $ficheroCsvUO -delimiter *
 #Mediante el bucle foreach, leemos el objeto $fichero, es decir, cada pasada por el bucle es la lectura de una
 #de las líneas del fichero csv. Cada línea que se lee, se guarda en el objeto $linea
 foreach($line in $fichero)
