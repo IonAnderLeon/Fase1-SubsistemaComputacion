@@ -1,0 +1,14 @@
+Name*Description*Path
+Departamentos*UO Departamentos*DC=marenostrum,DC=mylocal
+Direccion*UO Con. de Dirección*OU=Departamentos,DC=marenostrum,DC=mylocal
+Logistica*UO Logistica*OU=Departamentos,DC=marenostrum,DC=mylocal
+Seguridad*UO Seg. In. y Admin. Sistemas*OU=Departamentos,DC=marenostrum,DC=mylocal
+Investigacion*UO In. Ciencias Computación*OU=Departamentos,DC=marenostrum,DC=mylocal
+Equipos-Direccion*UO EQUIPOS-DIRECCION*OU=Direccion,OU=Departamentos,DC=marenostrum,DC=mylocal
+Equipos-Logistica*UO EQUIPOS-LOGISTICA*OU=Logistica,OU=Departamentos,DC=marenostrum,DC=mylocal
+Equipos-Seguridad*UO EQUIPOS-SEGURIDAD*OU=Seguridad,OU=Departamentos,DC=marenostrum,DC=mylocal
+Equipos-Investigacion*UO EQUIPOS-INVESTIGACIÓN*OU=Investigacion,OU=Departamentos,DC=marenostrum,DC=mylocal
+Usuarios-Direccion*UO USUARIOS-DIRECCION*OU=Direccion,OU=Departamentos,DC=marenostrum,DC=mylocal
+Usuarios-Logistica*UO USUARIOS-LOGISTICA*OU=Logistica,OU=Departamentos,DC=marenostrum,DC=mylocal
+Usuarios-Seguridad*UO USUARIOS-SEGURIDAD*OU=Seguridad,OU=Departamentos,DC=marenostrum,DC=mylocal
+Usuarios-Investigacion*UO USUARIOS-INVESTIGACIÓN*OU=Investigacion,OU=Departamentos,DC=marenostrum,DC=mylocal

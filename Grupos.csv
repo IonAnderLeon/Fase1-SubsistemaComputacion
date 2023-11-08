@@ -1,0 +1,5 @@
+Name*Path*Description*Category*Scope
+GGDepDireccion*ou=usuarios-direccion,ou=direccion,ou=departamentos,DC=marenostrum,DC=mylocal*Grupo del departemento direccion*Security*Global
+GGDepLogistica*ou=usuarios-logistica,ou=logistica,ou=departamentos,DC=marenostrum,DC=mylocal*Grupo del departemento logistica*Security*Global
+GGDepSeguridad*ou=usuarios-seguridad,ou=seguridad,ou=departamentos,DC=marenostrum,DC=mylocal*Grupo del departemento seguridad*Security*Global
+GGDepInvestigacion*ou=usuarios-investigacion,ou=investigacion,ou=departamentos,DC=marenostrum,DC=mylocal*Grupo del departemento investigacion*Security*Global
