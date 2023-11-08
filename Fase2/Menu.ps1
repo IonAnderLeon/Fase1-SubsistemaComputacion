@@ -102,7 +102,7 @@ write-Host ""
 write-Host "Se han creado los equipos en el dominio $domain" -Fore green
 write-Host "" 
 		
-	}     
+	
 }
 
 #Primero comprobaremos si se tiene cargado el módulo Active Directory
